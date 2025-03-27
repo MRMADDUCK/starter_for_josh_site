@@ -57,7 +57,7 @@
 </head>
 <body>
 
-    <header class="container-fluid smallpage-bg1">
+    <header class="container-fluid smallpage-bg">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <!-- Brand -->
