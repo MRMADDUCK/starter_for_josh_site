@@ -61,7 +61,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <!-- Brand -->
-                <a class="navbar-brand" href="#"><span class="josh">JOSH</span> <span class="whitkins">WHTKINS</span></a>
+                <a class="navbar-brand" href="#"><span class="josh">JOSH</span> <span class="whitkin">WHTKIN</span></a>
               
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
