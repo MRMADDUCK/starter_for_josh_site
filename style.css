@@ -9,7 +9,7 @@ Version: 1
 
 
 .bg1 {
-    background-image: url(images/header.jpg);
+    background-image: url("images/header.jpg:");
     background-size: cover;
 }
 
@@ -22,7 +22,7 @@ Version: 1
     letter-spacing: -1px;
 }
 
-.whitkins {
+.whitkin {
     color: #FDA118;
 }
 
@@ -118,7 +118,7 @@ Version: 1
 }
 
 footer {
-    background-image: url(images/footer.jpg);
+    background-image: url("images/footer.jpg");
     background-size: cover;
     background-position: center center;
 }
