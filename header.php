@@ -57,9 +57,9 @@
 </head>
 <body>
 
-    <header class="container-fluid bg1">
+<header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
         <div class="container">
-                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="http://170.187.231.66/~mesh5"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
       
@@ -86,7 +86,10 @@ wp_nav_menu( array(
       </nav>
 
             <div class="tag">
-                <h1>Games Desgin for the Future</h1>
+            <div class="tag"><!-- div that holds the content in the middle of the page-->
+        <h1><?php the_field('maintagline'); ?></h1>
+              </div><!-- container-->
+
             </div>
             
         </div> <!-- container -->
