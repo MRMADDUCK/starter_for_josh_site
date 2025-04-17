@@ -61,7 +61,7 @@
         <div class="container">
                 <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="http://170.187.231.66/~mesh5"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
+        <a class="navbar-brand" href="http://170.187.231.66/+AH4-mesh8/"><span class="josh">JOSH</span><span class="whitkin">WHITKIN</span></a>
       
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
