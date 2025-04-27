@@ -1,16 +1,21 @@
-<footer class="container-fluid text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="whitkin">WHITKIN</span></a>
-                </div>
-                <div class="col-md-6">
-                    <p>Terms and Conditions</p>
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+<footer class="container-fluid text-center"><!-- div for the main image to stretch s to the edge of the page-->
 
-    <?php wp_footer(); ?>
+<div class="container"><!-- div to hold the content in the middle of the page-->
+    <div class="row"><!-- a row that gives us access to the BS columns-->
+        <div class="col-md-6 widgetleft">
+    
+          <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
+endif; ?>
+
+        </div>
+        <div class="col-md-6 ">
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-right') ) : 
+endif; ?>
+</div><!-- row-->
+    </div><!-- container -->
+</div><!-- container-fluid-->
+
+</footer>
+<?php wp_footer(); ?>
 </body>
 </html>
